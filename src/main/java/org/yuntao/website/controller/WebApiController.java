@@ -7,12 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by zhaoyuntao on 2019/1/19.
  */
 @RestController
-public class HelloController {
+public class WebApiController {
 
-    @RequestMapping("/")
-     public String index(){
-        return "Hello,Index,Test,hahaha";
-    }
+
 
     @RequestMapping("/hello")
     public String hello(){
